@@ -1,0 +1,40 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --dark: #151515;
+}
+
+html, body {
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--white);
+    background: var(--dark);
+}
+
+nav {
+
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+
+}
+
+a {
+    color: var(--white);
+    text-decoration: none;
+}

@@ -1,0 +1,14 @@
+@font-face {
+    font-family: IBMPlexThin;
+    src: url('/fonts/IBMPlexMono-Thin.ttf');
+}
+
+@font-face {
+    font-family: IBMPlexRegular;
+    src: url('/fonts/IBMPlexMono-Medium.ttf');
+}
+
+@font-face {
+    font-family: IBMPlexBold;
+    src: url('/fonts/IBMPlexMono-SemiBold.ttf');
+}

@@ -1,10 +1,14 @@
 <!DOCTYPE HTML>
 <html>
-<%- include comps/head.ejs %>
+<head>
+    <%- include comps/head.ejs %>
+    <link rel="stylesheet" href="/css/comps/404.css">
+    <title>404 | TUB - AIGLART</title>
+</head>
 <body>
 <%- include comps/nav.ejs %>
-<main>
-404
+<main class="notfound">
+<p class="notfound-text">Ooops! There is probably something wrong, go back <a href="/" class="notfound-link">home</a>!</p>
 </main>
 <%- include comps/footer.ejs %>
 </body>

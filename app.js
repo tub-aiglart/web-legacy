@@ -4,8 +4,12 @@ let path = require('path');
 let cookieParser = require('cookie-parser');
 let logger = require('morgan');
 
-let indexRouter = require('./routes/index');
-let notKnownRouter = require('./routes/404');
+let index = require('./routes/index');
+let gallery = require('./routes/gallery');
+let exhibitions = require('./routes/exhibitions');
+let contact = require('./routes/contact');
+let imprint = require('./routes/imprint');
+let notknown = require('./routes/404');
 
 let app = express();
 
@@ -18,11 +22,15 @@ app.use(express.urlencoded({extended: false}));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', indexRouter);
-app.use('/404', notKnownRouter);
+app.use('/', index);
+app.use('/gallery', gallery);
+app.use('/exhibitions', exhibitions);
+app.use('/contact', contact);
+app.use('/imprint', imprint);
+app.use('/404', notknown);
 
 app.use(function (req, res) {
-    res.redirect('/');
+    res.redirect('/404');
 });
 
 app.use(function (err, req, res) {

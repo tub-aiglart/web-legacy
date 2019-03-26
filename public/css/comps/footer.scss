@@ -1,0 +1,29 @@
+.footer {
+  padding: 20px;
+  font-size: 15px;
+  font-family: IBMPlexThin, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+
+  .footer-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+    .footer-link {
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .footer-divider {
+      margin: 0 10px;
+    }
+  }
+}
