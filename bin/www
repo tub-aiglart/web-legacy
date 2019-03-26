@@ -11,7 +11,7 @@ let http = require('http');
  * Get port from environment and store in Express.
  */
 
-let port = normalizePort('9876');
+let port = normalizePort('1944');
 app.set('port', port);
 
 /**
