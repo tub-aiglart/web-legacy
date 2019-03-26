@@ -1,0 +1,42 @@
+.imprint {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+  font-family: IBMPlexRegular, sans-serif;
+
+  a {
+    text-decoration: underline;
+    margin: 5px 25px;
+  }
+
+  h1 {
+    font-size: 50px;
+    margin: 5px 25px;
+  }
+
+  h2 {
+    font-size: 40px;
+    margin: 5px 25px;
+  }
+
+  h3 {
+    font-size: 30px;
+    margin: 5px 25px;
+  }
+
+  h4 {
+    font-size: 25px;
+    margin: 5px 25px;
+  }
+
+  p {
+    font-size: 20px;
+    margin: 5px 25px;
+  }
+
+  ul {
+    margin: 5px 25px;
+  }
+}

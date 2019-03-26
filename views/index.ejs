@@ -1,10 +1,30 @@
 <!DOCTYPE HTML>
-<html>
-<%- include comps/head.ejs %>
+<html lang="de">
+<head>
+    <%- include comps/head.ejs %>
+    <link rel="stylesheet" href="/css/comps/index.css">
+    <title>TUB - AIGLART</title>
+</head>
 <body>
 <%- include comps/nav.ejs %>
-<main>
-
+<main class="home">
+    <div class="home-image">
+        <img src="/img/portrait.jpg" class="home-image-source" alt="Tuija Unho-Berger">
+    </div>
+    <div class="home-text">
+        <p>
+            Tuija Unho-Berger, born in Helsinki, Finland;
+            after high school diploma in 1963 practical work (silk-screen process)
+            in the layout department of the film company Suomi-Filmi;
+            lessons in painting by Ville Hänninen (painter and scene designer);
+            courses in painting at the Free School of Arts in Helsinki;
+            longer stays in Sweden, England and France (languages and art scene);
+            residence in southern Bavaria/Germany;
+            individual and group exhibitions in:
+            Regensburg, Ingolstadt, Straubing, Pfaffenhofen, Kelheim,
+            Mainburg, Geisenfeld, Neustadt a.d. Donau.
+        </p>
+    </div>
 </main>
 <%- include comps/footer.ejs %>
 </body>

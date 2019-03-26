@@ -1,0 +1,11 @@
+version: '3'
+services:
+  web:
+    build: .
+    volumes:
+    - .:/opt/groovy/websites/website
+    - /opt/groovy/websites/website/node_modules
+    ports:
+    - "4224:4224"
+    restart: always
+    command: npm start

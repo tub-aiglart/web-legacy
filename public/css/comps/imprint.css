@@ -1,0 +1,37 @@
+.imprint {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+  font-family: IBMPlexRegular, sans-serif;
+}
+.imprint a {
+  text-decoration: underline;
+  margin: 5px 25px;
+}
+.imprint h1 {
+  font-size: 50px;
+  margin: 5px 25px;
+}
+.imprint h2 {
+  font-size: 40px;
+  margin: 5px 25px;
+}
+.imprint h3 {
+  font-size: 30px;
+  margin: 5px 25px;
+}
+.imprint h4 {
+  font-size: 25px;
+  margin: 5px 25px;
+}
+.imprint p {
+  font-size: 20px;
+  margin: 5px 25px;
+}
+.imprint ul {
+  margin: 5px 25px;
+}
+
+/*# sourceMappingURL=imprint.css.map */
